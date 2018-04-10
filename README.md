@@ -5,6 +5,7 @@ Transppt is a simple Python script to translate Powerpoint files from the comman
 
 * Python 3 (Python 2 may work as well, but I haven't tested it)
 * [Google Cloud Translation API Library](https://cloud.google.com/translate/docs/reference/libraries#client-libraries-install-python)
+* Google Service Account Key (via [Google Cloud Translation API Library](https://cloud.google.com/translate/docs/reference/libraries#client-libraries-install-python) page)
 * [python-pptx](https://pypi.python.org/pypi/python-pptx)
 * Optional: [progress](https://pypi.python.org/pypi/progress)
 
