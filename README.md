@@ -1,5 +1,5 @@
 # transppt
-Transppt is a simple Python program to translate Powerpoint files from the command line while retaining formatting, images, autoshapes, etc.
+Transppt is a simple Python script to translate Powerpoint files from the command line while retaining formatting, images, autoshapes, etc.
 
 ## Requirements
 
@@ -9,13 +9,15 @@ Transppt is a simple Python program to translate Powerpoint files from the comma
 * Optional: [progress](https://pypi.python.org/pypi/progress)
 
 ## Usage
-<pre>transppt.py <input filename></pre>
+<pre>transppt.py input_filename</pre>
 
-Output filename will be <target_language>_<input filename>
+Output filename will be target_language_input_filename (en_input_filename by default)
 
 ## Notes
-By default this translates to English. Change target variable to suit your needs :)
+By default transppt translates to English. Change target variable to suit your needs :)
 
 ## Todo
 
 * Code cleanup
+* Arguments for output language and output filename
+* Maybe add support for other Office formats
